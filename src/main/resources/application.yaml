@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: PeopleManagmentSpringBootDataApp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa-kk-youtube
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
